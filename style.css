@@ -4,33 +4,27 @@ body{
 }
 h1{
     font-size: 50px;
-
 }
 h2{
     font-size: 40px;
+    font-weight: 800;
 }
 .special-text-color{
     color: #ffad5a;
 }
-
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
-
 .half-width{
     width: 50%;
-    padding-left: 10%;  
-    
+    padding-left: 10%;     
 }
 .half-width img{
     width: 80%;
     margin-top: 5%;
-  
 }
-.text-size{
-    margin-top: 10px;
-}
+
 #bg-design{
     border-left: 5px solid;
     border-image-slice:1;
@@ -45,27 +39,73 @@ h2{
     padding: 10px 40px;
     border-radius: 5px;
 }
-.dream-big{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat:no-repeat;
-    background-position:right; 
-}
 
-.info-colomn{
+div.container {
+    width: 90%;
     margin: 15px;
-    border-radius: 10px;
+    padding: 5%;
+  }
+  #text-position{
+      text-align: center;
+  }
+  div.box {
+    box-sizing: border-box;
+    width: 30%;
+    height: 350px;
+    padding: 15px;
+    margin-left: 25px;
+    border-radius: 15px;
+    float: left;
+  }
+  .img-size{
+      width:100px;
+      
+  }
+  #box1-bd-colour{
+      background-color: #edf5f6;;
+  }
+  #box2-bd-colour{
+      background-color:#ffeeee;
+  }
+  #box3-bd-colour{
+      background-color:#fff4d6;
+  }
+
+
+#bg-shepe1{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#bg-shepe2{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.info-colomn{
+  
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
     background-color:#edf5e6;
 }
+
 #infi-text{
        margin-left: 20px;
        padding: 20px;
-     
-      
 }
 
 footer{
     color: white;
+    margin: 10px;
     padding: 10px;
+    margin-left: 30px;
     text-align: center;
     background-color: #082e5b;
     border-radius: 10px;
